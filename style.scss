@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    
+}
+:root{
+    --color-gray:hsl(0, 0%, 59%);
+    --color-light-gray:hsl(0, 0%, 75%)
+}
+
+body{
+    background-color: var(--color-gray) ;
+    text-align: center;
+}
+
+#myCanvas{
+    background-color: var(--color-light-gray);
+}
